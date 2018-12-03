@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2018-12-03 18:04:42">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Capturing OrderGuide Name on Request</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>2a761a1f4f4223005e4a8deba310c723</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-12-03 18:04:42</sys_created_on>
+<sys_id>73a7d65f4f4223005e4a8deba310c7b7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-12-03 18:04:42</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_ed7fb9df4f0223005e4a8deba310c753</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sc_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;CaputureOrderGuide: Set Guide on Insert&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	// Add your code here
+	//find item and Check Order Guide field to set it
+	var orderGuide = (function(){
+		var gr = new GlideRecord("sc_req_item");
+		gr.addQuery("request",current.sys_id);
+		gr.query();
+		if (gr.next() &amp;&amp; gr.order_guide) {
+			return gr.order_guide.sys_id;
+		}
+		return;
+	}());
+	if(orderGuide){
+		current.u_order_guide = orderGuide;
+	}
+	
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-12-03 16:25:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ed7fb9df4f0223005e4a8deba310c753&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;CaputureOrderGuide: Set Guide on Insert&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_ed7fb9df4f0223005e4a8deba310c753&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-12-03 18:00:58&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ed7fb9df4f0223005e4a8deba310c753"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-317854125</payload_hash>
+<remote_update_set display_value="Capturing OrderGuide Name on Request">73a7d65f4f4223005e4a8deba310c7b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-12-03 18:04:42</sys_created_on>
+<sys_id>73a7d65f4f4223005e4a8deba310c7b8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>167753afb940000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-12-03 18:04:42</sys_updated_on>
+<table>sc_request</table>
+<target_name>CaputureOrderGuide: Set Guide on Insert</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>9dd6d6d383422300e3b8a4eddca7d827</update_guid>
+<update_guid_history>9dd6d6d383422300e3b8a4eddca7d827:-317854125,d3e08213a34223000c0bedd2b6ccf6c6:-1611616499</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_sc_request_u_order_guide</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_order_guide" table="sc_request"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Order Guide&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_order_guide&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;sc_request&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;true&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sc_cat_item_guide"&gt;sc_cat_item_guide&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-12-03 18:02:44&lt;/sys_created_on&gt;&lt;sys_id&gt;4a17de1f4f4223005e4a8deba310c782&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Order Guide&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_sc_request_u_order_guide&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-12-03 18:02:44&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>497888207</payload_hash>
+<remote_update_set display_value="Capturing OrderGuide Name on Request">73a7d65f4f4223005e4a8deba310c7b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-12-03 18:04:42</sys_created_on>
+<sys_id>b7a7d65f4f4223005e4a8deba310c7b7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>167753c974c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-12-03 18:04:42</sys_updated_on>
+<table>sc_request</table>
+<target_name>Request.Order Guide</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>8737125f8d4223001015d286c7a630e7</update_guid>
+<update_guid_history>8737125f8d4223001015d286c7a630e7:497888207,53f65e1ff74223008a1637926c9fb556:1175039387,335f39df770223001d9442d6eafdf56d:497888207</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_sc_request_u_order_guide_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_order_guide" label="Order Guide" language="en" table="sc_request"><sys_documentation action="INSERT_OR_UPDATE"><element>u_order_guide</element><help/><hint/><label>Order Guide</label><language>en</language><name>sc_request</name><plural>Order Guides</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-12-03 18:02:44</sys_created_on><sys_id>4337125f4f4223005e4a8deba310c7df</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Order Guide</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_sc_request_u_order_guide_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-12-03 18:02:44</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-2036636431</payload_hash>
+<remote_update_set display_value="Capturing OrderGuide Name on Request">73a7d65f4f4223005e4a8deba310c7b7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-12-03 18:04:42</sys_created_on>
+<sys_id>bfa7d65f4f4223005e4a8deba310c7b7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>167753c97660000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-12-03 18:04:42</sys_updated_on>
+<table>sc_request</table>
+<target_name>Request.Order Guide</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>cb37125faf4223005bf74457496299e8</update_guid>
+<update_guid_history>cb37125faf4223005bf74457496299e8:-2036636431,97f65e1fe3422300977be5cf3da99447:682680641,775f39dfb90223008202cfe282c9f66e:-2036636431</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
