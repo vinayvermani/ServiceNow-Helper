@@ -1,0 +1,50 @@
+#### DateTime helper
+
+gs.print(new GlideDateTime().getDayOfWeek());
+gs.print(new GlideDateTime());
+gs.print(gs.nowDateTime());
+gs.print(new GlideDateTime(gs.nowDateTime()));
+gs.print(new GlideDateTime("2018-12-23 23:39:38").getDayOfWeek());
+
+function dateTimeOfLastWeekday(weekday) {
+  var today = new GlideDateTime(gs.beginningOfToday());
+  var currentWeekday = today.getDayOfWeek();
+  var days =
+    currentWeekday > weekday
+      ? weekday - currentWeekday
+      : weekday - (7 + currentWeekday);
+
+  return dateTimeOfDaysAgo(days)(today);
+}
+
+function dateTimeOfDaysAgo(numOfDays) {
+  return function(dateTime) {
+      dateTime = dateTime ? dateTime : new GlideDateTime(gs.nowDateTime());
+    var gdt = new GlideDateTime(dateTime);
+    gdt.addDays(numOfDays);
+    return gdt;
+  };
+}
+gs.print("****");
+gs.print(dateTimeOfDaysAgo(0)(new GlideDateTime()));
+var x =new GlideDateTime();
+//x.setValue("05:00:00"); 
+gs.print(x.getDate());
+gs.print(gs.dateGenerate('2018-12-13','start'));
+gs.print(new GlideDateTime(gs.nowDateTime()).getDayOfWeek());
+
+
+gs.print("*****");
+gs.print("Today using my function: "+dateTimeOfDaysAgo(0)());
+gs.print("Begining of Today: "+gs.beginningOfToday());
+gs.print("Thursday Start Date: " +dateTimeOfLastWeekday(4));
+
+//gs.print("gs.nowDateTime: "+gs.nowDateTime());
+//gs.print("new GlideDateTime(): "+new GlideDateTime());
+//gs.print("gs.beginningOfToday(): "+gs.beginningOfToday());
+//gs.print(new GlideDateTime(gs.beginningOfToday()));
+//gs.print(new GlideDateTime(gs.beginningOfToday()).getDayOfWeek());
+
+//gs.print(gs.dateGenerate('2018-12-17','00:00:00'))
+
+
