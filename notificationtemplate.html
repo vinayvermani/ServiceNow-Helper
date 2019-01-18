@@ -1,0 +1,66 @@
+<style type="text/css"><!--
+p {
+ color: #666666;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  font-size: 10pt;
+  font-family: arial, helvetica, sans-serif; 
+ }
+  table {
+     color: #666666;
+   font-size: 10pt;
+    font-family: arial, helvetica, sans-serif; 
+    margin-left: 0px;
+  }
+ td {
+  color: #666666;
+   font-size: 10pt;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   font-family: arial, helvetica, sans-serif; 
+ }
+  span {
+    color: #666666;
+    font-size: 10pt;
+    font-family: arial, helvetica, sans-serif; font-size: 10pt;
+  }
+  .awc-strong{
+    font-weight: bold;
+  }
+  .awc-col-200{
+    width: 200px;
+  }
+  .awc-pad-left {
+    padding-left: 100px;
+  }
+--></style>
+<p>${URI_REF} : ${short_description}</p>
+<p><span class="awc-strong" style="text-transform:uppercase; font-size: 9pt;">Description: </span>
+  <br /> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${description}
+</p>
+<div style="height:1px;border-top: 1px solid #999999;margin-bottom: 10px; margin-top: 10px;"></div>
+<table>
+<tbody>
+<tr>
+<td class="awc-strong">State</td>
+<td class="awc-pad-left">${state}</td>
+</tr>
+<tr>
+<td class="awc-strong">Requested by</td>
+<td class="awc-pad-left">${requested_by}</td>
+</tr>
+<tr>
+<td class="awc-strong">Assignment Group</td>
+<td class="awc-pad-left">${assignment_group}</td>
+</tr>
+<tr>
+<td class="awc-strong">Assigned to</td>
+<td class="awc-pad-left">${assigned_to}</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>${mail_script:task_affected_cis}<br /> ${mail_script:attach_links}</p>
+<p>&nbsp;</p>
+<p><span class="awc-strong">Comments and Work notes </span><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${comments_and_work_notes}</p>
