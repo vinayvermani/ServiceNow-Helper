@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2019-02-07 15:12:32">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>VV_ComplexFlow_01</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>053c2cd0db232300c66a9b81ca9619ad</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-07 15:12:32</sys_created_on>
+<sys_id>9d3961a4db232300c66a9b81ca9619a5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-07 15:12:32</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_complex_approval_lookup_u_condition</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_condition" table="u_complex_approval_lookup"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Condition&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_condition&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;500&lt;/max_length&gt;&lt;name&gt;u_complex_approval_lookup&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-07 15:07:50&lt;/sys_created_on&gt;&lt;sys_id&gt;2fe7e164db232300c66a9b81ca961901&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Condition&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_complex_approval_lookup_u_condition&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-07 15:11:37&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2008555707</payload_hash>
+<remote_update_set display_value="VV_ComplexFlow_01">9d3961a4db232300c66a9b81ca9619a5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-07 15:12:32</sys_created_on>
+<sys_id>113961a4db232300c66a9b81ca9619a7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168c883a5420000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-07 15:12:32</sys_updated_on>
+<table>u_complex_approval_lookup</table>
+<target_name>Complex approval lookup.Condition</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>77f8a1a4a3232300f7737a16cb7df4c9</update_guid>
+<update_guid_history>77f8a1a4a3232300f7737a16cb7df4c9:2008555707,202829640e232300005132b90887029c:-517508512</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_complex_approval_lookup__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Complex approval lookup" language="en" table="u_complex_approval_lookup"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Complex approval lookup</label><language>en</language><name>u_complex_approval_lookup</name><plural>Complex approval lookups</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-07 15:07:50</sys_created_on><sys_id>20282964db232300c66a9b81ca9619b2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Complex approval lookup</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_complex_approval_lookup__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-07 15:07:50</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>837148067</payload_hash>
+<remote_update_set display_value="VV_ComplexFlow_01">9d3961a4db232300c66a9b81ca9619a5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-07 15:12:32</sys_created_on>
+<sys_id>153965a4db232300c66a9b81ca9619b0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168c88031cf0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-07 15:12:32</sys_updated_on>
+<table>u_complex_approval_lookup</table>
+<target_name>Complex approval lookup</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>a428296418232300cfa84468799436cd</update_guid>
+<update_guid_history>a428296418232300cfa84468799436cd:837148067</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_complex_approval_lookup_u_wf_alias_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_wf_alias" label="WF Alias" language="en" table="u_complex_approval_lookup"><sys_documentation action="INSERT_OR_UPDATE"><element>u_wf_alias</element><help/><hint/><label>WF Alias</label><language>en</language><name>u_complex_approval_lookup</name><plural>WF Alias</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-07 15:07:50</sys_created_on><sys_id>24282964db232300c66a9b81ca9619b5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>WF Alias</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_complex_approval_lookup_u_wf_alias_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-07 15:07:50</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1238479462</payload_hash>
+<remote_update_set display_value="VV_ComplexFlow_01">9d3961a4db232300c66a9b81ca9619a5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-07 15:12:32</sys_created_on>
+<sys_id>513965a4db232300c66a9b81ca9619b0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168c88031dc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-07 15:12:32</sys_updated_on>
+<table>u_complex_approval_lookup</table>
+<target_name>Complex approval lookup.WF Alias</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>e4282964942323004e979bdb72cbefce</update_guid>
+<update_guid_history>e4282964942323004e979bdb72cbefce:-1238479462</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_complex_approval_lookup_u_approvers</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_approvers" table="u_complex_approval_lookup"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Approvers&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_approvers&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value=""&gt;glide_list&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;name&gt;u_complex_approval_lookup&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user"&gt;sys_user&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-07 15:07:50&lt;/sys_created_on&gt;&lt;sys_id&gt;b1e72564db232300c66a9b81ca961998&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Approvers&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_complex_approval_lookup_u_approvers&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-07 15:11:37&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2090178374</payload_hash>
+<remote_update_set display_value="VV_ComplexFlow_01">9d3961a4db232300c66a9b81ca9619a5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-07 15:12:32</sys_created_on>
+<sys_id>5d3961a4db232300c66a9b81ca9619a6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168c883a4e40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-07 15:12:32</sys_updated_on>
+<table>u_complex_approval_lookup</table>
+<target_name>Complex approval lookup.Approvers</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>7ff8e9647a232300c202b632f9729add</update_guid>
+<update_guid_history>7ff8e9647a232300c202b632f9729add:2090178374,9828296407232300e2542753a27a0497:-671716517</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_complex_approval_lookup_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_complex_approval_lookup"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_complex_approval_lookup&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-07 15:07:50&lt;/sys_created_on&gt;&lt;sys_id&gt;a4282964db232300c66a9b81ca9619ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_complex_approval_lookup&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_complex_approval_lookup_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-07 15:07:50&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2133528437</payload_hash>
+<remote_update_set display_value="VV_ComplexFlow_01">9d3961a4db232300c66a9b81ca9619a5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-07 15:12:32</sys_created_on>
+<sys_id>993961a4db232300c66a9b81ca9619a6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168c88031ba0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-07 15:12:32</sys_updated_on>
+<table>u_complex_approval_lookup</table>
+<target_name>Complex approval lookup</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>242829643e232300bb742bb9ffd125cc</update_guid>
+<update_guid_history>242829643e232300bb742bb9ffd125cc:-2133528437</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_6c282964db232300c66a9b81ca9619c9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>u_complex_approval_lookup</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-07 15:07:51</sys_created_on><sys_id>6c282964db232300c66a9b81ca9619c9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_complex_approval_lookup</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>ua_table_licensing_config_6c282964db232300c66a9b81ca9619c9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-07 15:07:51</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<payload_hash>-1682800646</payload_hash>
+<remote_update_set display_value="VV_ComplexFlow_01">9d3961a4db232300c66a9b81ca9619a5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-07 15:12:32</sys_created_on>
+<sys_id>993965a4db232300c66a9b81ca9619b0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168c88031a00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-07 15:12:32</sys_updated_on>
+<table/>
+<target_name>u_complex_approval_lookup</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>ac28296458232300892358527e66a5ca</update_guid>
+<update_guid_history>ac28296458232300892358527e66a5ca:-1682800646</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_complex_approval_lookup_u_condition_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_condition" label="Condition" language="en" table="u_complex_approval_lookup"><sys_documentation action="INSERT_OR_UPDATE"><element>u_condition</element><help/><hint/><label>Condition</label><language>en</language><name>u_complex_approval_lookup</name><plural>Conditions</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-07 15:07:50</sys_created_on><sys_id>e4282964db232300c66a9b81ca9619b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Condition</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_complex_approval_lookup_u_condition_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-07 15:07:50</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>631221117</payload_hash>
+<remote_update_set display_value="VV_ComplexFlow_01">9d3961a4db232300c66a9b81ca9619a5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-07 15:12:32</sys_created_on>
+<sys_id>9d3965a4db232300c66a9b81ca9619af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168c88031f60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-07 15:12:32</sys_updated_on>
+<table>u_complex_approval_lookup</table>
+<target_name>Complex approval lookup.Condition</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>6828296489232300169b7f12c4ba05d0</update_guid>
+<update_guid_history>6828296489232300169b7f12c4ba05d0:631221117</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_78d72564db232300c66a9b81ca96196b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Complex approval lookup</label><live_feed_enabled>false</live_feed_enabled><name>u_complex_approval_lookup</name><number_ref/><provider_class/><read_access>true</read_access><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-07 15:07:50</sys_created_on><sys_id>78d72564db232300c66a9b81ca96196b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Complex approval lookup</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_78d72564db232300c66a9b81ca96196b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-07 15:09:55</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-1379480699</payload_hash>
+<remote_update_set display_value="VV_ComplexFlow_01">9d3961a4db232300c66a9b81ca9619a5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-07 15:12:32</sys_created_on>
+<sys_id>d13961a4db232300c66a9b81ca9619a6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168c88219d00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-07 15:12:32</sys_updated_on>
+<table>u_complex_approval_lookup</table>
+<target_name>Complex approval lookup</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>4f98ad641d232300a3dfbb5d1a250537</update_guid>
+<update_guid_history>4f98ad641d232300a3dfbb5d1a250537:-1379480699,6828296496232300c1371fdeb11d01d1:-1379480699</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_complex_approval_lookup_u_wf_alias</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_wf_alias" table="u_complex_approval_lookup"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;WF Alias&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_wf_alias&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;name&gt;u_complex_approval_lookup&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-07 15:07:50&lt;/sys_created_on&gt;&lt;sys_id&gt;3cd7e164db232300c66a9b81ca961927&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;WF Alias&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_complex_approval_lookup_u_wf_alias&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-07 15:11:37&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2008517014</payload_hash>
+<remote_update_set display_value="VV_ComplexFlow_01">9d3961a4db232300c66a9b81ca9619a5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-07 15:12:32</sys_created_on>
+<sys_id>d13961a4db232300c66a9b81ca9619a7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168c883a59d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-07 15:12:32</sys_updated_on>
+<table>u_complex_approval_lookup</table>
+<target_name>Complex approval lookup.WF Alias</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>7bf8a1a4cf232300859e60ac0deb9ace</update_guid>
+<update_guid_history>7bf8a1a4cf232300859e60ac0deb9ace:2008517014,50282964ac23230037ab4fe8268c4e93:-852873055</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_b2d8e964db232300c66a9b81ca96194c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="b2d8e964db232300c66a9b81ca96194c" sys_domain="global" table="u_complex_approval_lookup" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_approvers</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-07 15:11:01</sys_created_on><sys_id>03d8e964db232300c66a9b81ca961952</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_complex_approval_lookup" sys_domain="global" view="Default view">b2d8e964db232300c66a9b81ca96194c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-07 15:11:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_condition</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-07 15:11:01</sys_created_on><sys_id>83d8e964db232300c66a9b81ca961952</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_complex_approval_lookup" sys_domain="global" view="Default view">b2d8e964db232300c66a9b81ca96194c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-07 15:11:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_wf_alias</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-07 15:11:01</sys_created_on><sys_id>07d8e964db232300c66a9b81ca961952</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_complex_approval_lookup" sys_domain="global" view="Default view">b2d8e964db232300c66a9b81ca96194c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-07 15:11:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_complex_approval_lookup</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-07 15:11:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b2d8e964db232300c66a9b81ca96194c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_complex_approval_lookup</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_b2d8e964db232300c66a9b81ca96194c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-07 15:11:01</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-1248030549</payload_hash>
+<remote_update_set display_value="VV_ComplexFlow_01">9d3961a4db232300c66a9b81ca9619a5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-07 15:12:32</sys_created_on>
+<sys_id>d53965a4db232300c66a9b81ca9619b0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168c883180e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-07 15:12:32</sys_updated_on>
+<table>u_complex_approval_lookup</table>
+<target_name>Complex approval lookup</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>87d8e9646a2323002feeff36dc9d5653</update_guid>
+<update_guid_history>87d8e9646a2323002feeff36dc9d5653:-1248030549,f2d8e964ce232300e762315fca9a584e:-241001628</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_complex_approval_lookup_u_approvers_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_approvers" label="Approvers" language="en" table="u_complex_approval_lookup"><sys_documentation action="INSERT_OR_UPDATE"><element>u_approvers</element><help/><hint/><label>Approvers</label><language>en</language><name>u_complex_approval_lookup</name><plural>Approvers</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-07 15:07:50</sys_created_on><sys_id>a8282964db232300c66a9b81ca9619b3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Approvers</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_complex_approval_lookup_u_approvers_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-07 15:07:50</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>501330000</payload_hash>
+<remote_update_set display_value="VV_ComplexFlow_01">9d3961a4db232300c66a9b81ca9619a5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-02-07 15:12:32</sys_created_on>
+<sys_id>d93965a4db232300c66a9b81ca9619af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>168c88031e90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-02-07 15:12:32</sys_updated_on>
+<table>u_complex_approval_lookup</table>
+<target_name>Complex approval lookup.Approvers</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>282829649523230000e02302d28af6cf</update_guid>
+<update_guid_history>282829649523230000e02302d28af6cf:501330000</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
